@@ -2,7 +2,7 @@ import { useMemo, useState } from "react";
 import Input from "./Input";
 import FileInput from "./FileInput";
 import Button from "./Button";
-
+import type {JSX} from "react";
 export default function Form(): JSX.Element {
   const [disableButton, setDisableButton] = useState<boolean>(true);
   const [submitForm, setSubmitForm] = useState<ICollectInput>({

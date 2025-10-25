@@ -1,5 +1,5 @@
-import { ReactNode, useState } from "react";
-
+import {  useState } from "react";
+import type {  ReactNode,} from "react";
 export default function Input({ info }: { info: IData }) : ReactNode {
   const [value, setValue] = useState<string>("");
   const [error, setError] = useState<string>("");

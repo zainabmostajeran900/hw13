@@ -1,5 +1,5 @@
-import { ChangeEvent, useState } from "react";
-
+import  type { ChangeEvent,JSX } from "react";
+import {useState} from "react";
 export default function FileInput({collectValue}:{collectValue : CollectValue}) : JSX.Element {
     const [file,setFile] = useState<string>("");
     const [srcFile,setSrcFile] = useState<string>();

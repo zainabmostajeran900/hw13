@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import type { ReactNode } from "react";
 
 export default function Button({disableChange = false , children ,data}:{disableChange? : boolean , children : ReactNode,data?: string}) {
   const onClickHandler : React.MouseEventHandler<HTMLButtonElement> = ()=>{
