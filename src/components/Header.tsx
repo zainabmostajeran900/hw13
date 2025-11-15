@@ -19,10 +19,10 @@ export default function Header({content}:{content : (i : boolean)=>void}) {
       content(!menu)
     }
   return (
-    <div className="bg-grayApp px-28 max-md:px-10 flex gap-x-28 justify-center py-4 items-center mx-auto max-md:justify-between  max-md:flex-wrap fixed w-full">
+    <div className="bg-[#e2e2e2] px-28 max-md:px-10 flex gap-x-28 justify-center py-4 items-center mx-auto max-md:justify-between  max-md:flex-wrap fixed w-full">
       {/* <h2 className="text-grayApp text-xl font-semibold ">LOGO</h2> */}
       <img className="size-10" src="gold-medal.svg" alt="" />
-      <div className="text-goldApp text-sm font-normal flex gap-x-6 grow max-w-[597px] max-md:hidden">
+      <div className="text-[#bd9531] text-sm font-normal flex gap-x-6 grow max-w-[597px] max-md:hidden">
         {linksEl}
       </div>
       <div className="shrink-0 hidden max-md:block " onClick={onClickHandler}>

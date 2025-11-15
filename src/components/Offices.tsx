@@ -22,7 +22,7 @@ export default function Offices() {
     }
   return (
     <div className="flex flex-col gap-y-12 max-w-[267px] max-md:w-[300px] max-md:max-w-full">
-      <div className="flex flex-col gap-y-4 text-xs text-grayPApp">
+      <div className="flex flex-col gap-y-4 text-xs text-[#828282]">
         <h2 className="font-bold text-black/65 text-sm">Offices</h2>
         <p>
           United States{" "}
